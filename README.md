@@ -125,7 +125,6 @@ Love this setup? Fork it, star ⭐ it, and share your thoughts or improvements v
 
 Made with ❤️ by **Miskatul Anwar**
 
-```
 
 ### Features Added:
 1. **Programming Languages and Editors Section:** Highlighting the extensive support for tools like Rust, Zig, WebAssembly, and Python.
