@@ -92,19 +92,18 @@ Take your terminal experience to the next level with options for every workflow:
 ## 🚀 Getting Started
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/nixos-config.git
-   ```
 
-````
+   ```bash
+   git clone https://github.com/miskatul-anwar/flexOS.git ~/flexOS
+   ```
 
 2. Apply the configuration using Nix Flakes:
    ```bash
-   sudo nixos-rebuild switch --flake /path/to/this/repo
+   sudo nixos-rebuild switch --flake ~/flexOS#<your-hostname>
    ```
 3. Use Home Manager for user-level customization:
    ```bash
-   home-manager switch
+   home-manager switch --flake ~/flexOS#<your-username>
    ```
 
 ---
@@ -112,6 +111,7 @@ Take your terminal experience to the next level with options for every workflow:
 ## 📜 Future Plans
 
 - **Docker & Kubernetes:** Integration for containerized workflows.
+- **Ollama & OpenWebUI:** Native LLM(Large Language Model) support.
 - **Enhanced Machine Learning Support:** TensorFlow, PyTorch, CUDA.
 - **Advanced Networking Tools:** For debugging and monitoring.
 
@@ -125,13 +125,14 @@ Love this setup? Fork it, star ⭐ it, and share your thoughts or improvements v
 
 Made with ❤️ by **Miskatul Anwar**
 
-
 ### Features Added:
+
 1. **Programming Languages and Editors Section:** Highlighting the extensive support for tools like Rust, Zig, WebAssembly, and Python.
 2. **Privacy and Security:** Emphasizing Mullvad VPN, DNS, and ClamAV.
 3. **Shells & Prompts:** Featuring Nushell as default with Fish and Zsh alternatives, along with fancy prompt customizations.
 4. **Tools & Utilities:** Printer support, essential media tools, and terminal options.
 5. **Getting Started:** Simplified instructions for cloning and using the configuration.
 
-This comprehensive `README.md` will showcase the breadth of your setup beautifully! Let me know if you need further tweaks! 😊
-````
+```
+
+```
