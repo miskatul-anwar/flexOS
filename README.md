@@ -132,7 +132,3 @@ Made with ❤️ by **Miskatul Anwar**
 3. **Shells & Prompts:** Featuring Nushell as default with Fish and Zsh alternatives, along with fancy prompt customizations.
 4. **Tools & Utilities:** Printer support, essential media tools, and terminal options.
 5. **Getting Started:** Simplified instructions for cloning and using the configuration.
-
-```
-
-```
