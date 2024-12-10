@@ -9,6 +9,12 @@
     shell = pkgs.nushell;
     packages = with pkgs;
       [
+        kicad
+        kicadAddons.kikit-library
+        kikit
+        gimp
+        blender
+        rquickshare
         file-roller
         gnome-music
         spotify
