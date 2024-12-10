@@ -1,0 +1,2 @@
+# Ignore flake.lock in the NixOS configuration directory
+./flake.lock
