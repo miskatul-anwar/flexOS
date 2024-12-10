@@ -12,8 +12,13 @@
     R
     clang
     numbat
-    texliveFull
     nasm
     jdk23
+
+    texliveFull
+    typst
+    typstfmt
+    typst-live
+    typstwriter
   ];
 }
