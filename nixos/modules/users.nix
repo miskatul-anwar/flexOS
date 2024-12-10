@@ -9,9 +9,7 @@
     shell = pkgs.nushell;
     packages = with pkgs;
       [
-        kicad
-        kicadAddons.kikit-library
-        kikit
+        flatpak
         gimp
         blender
         rquickshare
