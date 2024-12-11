@@ -25,6 +25,8 @@
         vscodium
         brave
         whatsapp-for-linux
+        eagle
+        libreoffice-fresh
       ];
   };
 

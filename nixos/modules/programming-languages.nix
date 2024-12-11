@@ -3,7 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
     go
-    (python313Full.withPackages (ps: with ps; [ ]))
+    (python312Full.withPackages (ps: with ps; [ matplotlib numpy pandas ]))
     nodePackages_latest.nodejs
     nodePackages_latest.pnpm
     bun
@@ -20,5 +20,11 @@
     typstfmt
     typst-live
     typstwriter
+    dotnet-sdk
+
+    # Neovim Specific needs
+    eslint
+    prettierd
+    shellcheck
   ];
 }
