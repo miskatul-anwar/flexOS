@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    entr
     luarocks
     tree
     unzip
@@ -59,6 +60,6 @@
     tre-command
     yazi
     chafa
-
+    asusctl
   ];
 }

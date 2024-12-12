@@ -26,6 +26,7 @@
         brave
         whatsapp-for-linux
         eagle
+        kdenlive
         libreoffice-fresh
       ];
   };
